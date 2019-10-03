@@ -1,0 +1,31 @@
+<!--
+ Author     : Fardel Bastien
+ Date       : 26.09.2019
+ Title      : Hello.html
+ Version    : 1.2
+ Description: Opens a html page which reads a javascript file as a first exercise.
+ -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello</title>
+    <script>
+        function dire (qqch)
+        {
+            if (exercise1_2.click)
+            {
+                alert (qqch);
+            }
+        }
+    </script>
+</head>
+<body>
+    <a href="http://www.cpnv.ch" id="exercise1_1" onclick="alert('Hello');">Premier lien</a><br> <!-- Show an alert message when clicked with the mouse. -->
+    <a href="http://www.cpnv.ch" id="exercise1_2" onclick="dire('Hello'); return false;">Second lien</a><br>  <!-- Show the link in the Head of the document. -->
+    <a href="http://www.cpnv.ch" id="exercise1_3" onclick="return confirm('Attention vous aller être redirigé sur www.cpnv.ch');">Troisième lien</a><br> <!-- If OK is clicked, it will redirect it to the link but if Cancel is clicked, it won't do nothing. -->
+    <a href="http://www.cpnv.ch" id="exercise1_4" onclick="exercise1_4_js(); return false">Quatrième lien</a><br><br>
+    <img src="images\scemaste-xp.jpg" alt="scemaste-xp.jpg" height="100" id="exercise2_1">
+    <script type="text/javascript" src="Hello.js"></script>
+</body>
+</html>

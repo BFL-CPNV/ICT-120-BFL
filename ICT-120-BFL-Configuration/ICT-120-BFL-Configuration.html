@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="/" method="post">
+    First name: <input id="txtFirstName" type="text" name="firstname" value="Mickey"><br>
+    Last name: <input type="text" name="lastname" value="Mouse"><br><br>
+    Je suis un Teletubby <input id="chkTeletubby" type="checkbox" name="terrorist" ><br><br>
+    <input type="submit" value="Submit"></form>
+</body>
+
+<script>
+    // test if the checkbox Terrorist is checked
+    function chkTeletubbyClick() {
+        if (chkTeletubby.checked)
+        {
+            alert('Attention Donald, ' + txtFirstName.value + ' est un Teletubby !');
+        }
+    }
+    chkTeletubby.addEventListener('click', chkTeletubbyClick);
+
+    // Function to show name and age on a dialog box
+    function hello(name, age)
+    {
+        if (age>=18) {
+            alert ('Bonjour Monsieur ' + name);
+            return true
+        }
+        else
+        {
+            alert ('Salut ' + name);
+            return true;
+        }
+    }
+    console.log(hello('Arthur', 16));
+    console.log(hello('David', 19));
+    console.log(hello('Bastien', 17));
+
+    firstname ='Gertrude';
+    age = prompt ("Quel âge avez-vous ? ");
+    for (i=age ; i<25; i++)
+    {
+        if (i>=18)
+        {
+            alert ("Bonjour madame " + firstname + " ("+i+")");
+        }
+        else
+        {
+            alert ("Bonjour mademoiselle "+firstname+" ("+i+" )");
+        }
+
+    }
+
+</script>
+</html>
