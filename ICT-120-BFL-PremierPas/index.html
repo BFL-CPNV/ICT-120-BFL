@@ -5,7 +5,7 @@
     <title>Premiers pas en js</title>
     <style>
         div {
-            padding : 5px;
+            padding: 5px;
             margin: 5px;
             border: solid 1px black;
             width: fit-content;
@@ -13,18 +13,51 @@
     </style>
 </head>
 <body>
-<div>Cette div doit avoir un fond bleu après qu'on lui aie cliqué dessus</div>
-<div>Cette div avoir son texte 'tracé' après qu'on lui aie cliqué dessus</div>
-<div>Ce texte doit être en police Arial quand la souris le survole</div>
-<div>
+<div id="div_A" onclick="div_1()">Cette div doit avoir un fond bleu après qu'on lui aie cliqué dessus</div>
+<div id="div_B" onclick="div_2()">Cette div avoir son texte 'tracé' après qu'on lui aie cliqué dessus</div>
+<div id="div_C" onmouseover="div_3();" onmouseout="div_3_2()">Ce texte doit être en police Arial quand la souris le
+    survole
+</div>
+<div id="div_D">
     Cette div doit dire 'YES' en blanc sur fond vert quand les deux checkboxes dessous sont cochées.<br>
     A ce moment les checkboxes doivent disparaître<br>
     <input type="checkbox"></input><input type="checkbox"></input>
 </div>
-<div>
+<div id="div_E">
     Quand on clique sur ce texte, ça détruit
     <div>cette div</div>
 </div>
+
+<script>
+    function div_1() {
+        var x = document.getElementById("div_A");
+        x.style.background = "blue";
+        x.style.color = "white";
+    }
+
+    function div_2() {
+        var x = document.getElementById("div_B");
+        x.style.textDecoration = "line-through";
+    }
+
+    function div_3() {
+        var x = document.getElementById("div_C");
+        x.style.fontFamily = "arial";
+    }
+
+    function div_3_2() {
+        var x = document.getElementById("div_C");
+        x.style.fontFamily = "Times New Roman";
+    }
+
+    function div_4() {
+        document.getElementById("div_D");
+    }
+
+    function div_5() {
+        document.getElementById("div_E");
+    }
+</script>
 
 </body>
 </html>
