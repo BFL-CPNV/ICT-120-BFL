@@ -21,11 +21,11 @@
 <div id="div_D">
     Cette div doit dire 'YES' en blanc sur fond vert quand les deux checkboxes dessous sont cochées.<br>
     A ce moment les checkboxes doivent disparaître<br>
-    <input type="checkbox"></input><input type="checkbox"></input>
+    <input type="checkbox" id="chk1" onchange="div_4()"></input><input type="checkbox" id="chk2" onchange="div_4()"></input>
 </div>
-<div id="div_E">
+<div id="div_E" onclick="div_5()">
     Quand on clique sur ce texte, ça détruit
-    <div>cette div</div>
+    <div id="div_F">cette div</div>
 </div>
 
 <script>
@@ -51,11 +51,17 @@
     }
 
     function div_4() {
-        document.getElementById("div_D");
+
+        if (document.getElementById("chk1").checked && document.getElementById("chk2").checked) {
+            var x = document.getElementById("div_D");
+            x.style.color = "white";
+            x.style.background = "green";
+            x.innerHTML = "YES";
+        }
     }
 
     function div_5() {
-        document.getElementById("div_E");
+        document.getElementById("div_E").removeChild(document.getElementById("div_F"));
     }
 </script>
 
