@@ -5,16 +5,17 @@
     <title>Lecture d'un champ texte</title>
 </head>
 <body>
-    <form>
+    <form id="myForm">
         <input type="text" name="qqch" value="" />
 
-        <input type="submit" value="GO" onclick="dire(qqch)" />
+        <input type="submit" value="GO" onclick="dire()" />
     </form>
 
     <script>
-        function dire (qqch)
+        function dire ()
         {
-                alert ("qqch");
+            var x = document.getElementById("myForm").elements.namedItem("qqch").value;
+                alert (x);
         }
     </script>
 </body>
