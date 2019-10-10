@@ -1,0 +1,38 @@
+<!--
+Project     : Soumission de formulaire
+Author      : Fardel Bastien
+Date        : 10.10.2019
+Version     : 1.4
+Descirption : Takes the function dire and adds a watcher on the form to alert the user if it is empty.
+-->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Soumission de formulaire</title>
+</head>
+<body>
+
+<form id="myForm">
+    <input type="text" name="qqch" value="" />
+
+    <input type="submit" value="GO" onclick="return dire()" />
+</form>
+
+<script>
+    function dire ()
+    {
+        var x = document.getElementById("myForm").elements.namedItem("qqch").value;
+        if (x === "")
+        {
+            alert ("Le formulaire est vide !");
+            return false;
+        }
+        alert (x);
+        return true;
+    }
+</script>
+
+</body>
+</html>
