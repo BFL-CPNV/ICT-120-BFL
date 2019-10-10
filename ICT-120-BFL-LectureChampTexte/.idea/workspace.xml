@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d352e48-a4f2-466a-b0ef-a346a2a55cac" name="Default Changelist" comment="" />
+    <list default="true" id="294f4e27-ab7e-41fe-b40b-9392e0bef08b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,25 +17,18 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1RNCRcQzdgBVAjYDKTBiPRQXLWI" />
+  <component name="ProjectId" id="1RjbX0F38KnMxNFQM44FeUhwgU1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ICT-120-BFL-LectureChampTexte" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -54,15 +47,13 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4d352e48-a4f2-466a-b0ef-a346a2a55cac" name="Default Changelist" comment="" />
-      <created>1569498159427</created>
+      <changelist id="294f4e27-ab7e-41fe-b40b-9392e0bef08b" name="Default Changelist" comment="" />
+      <created>1570183487399</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1569498159427</updated>
-      <workItem from="1569498160536" duration="7204000" />
-      <workItem from="1569505618861" duration="835000" />
-      <workItem from="1570083573753" duration="90000" />
-      <workItem from="1570183705620" duration="49000" />
+      <updated>1570183487399</updated>
+      <workItem from="1570183488480" duration="215000" />
+      <workItem from="1570183755655" duration="308000" />
     </task>
     <servers />
   </component>
@@ -74,7 +65,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
