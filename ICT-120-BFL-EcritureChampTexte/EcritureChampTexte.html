@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Ecriture d'un champ texte</title>
+</head>
+<body>
+    <form id="myForm">
+        <input type="text" id="texte_1" value="" />
+
+        <input type="button" value="Envoi" onclick="transfer()" />
+
+        <input type="text" id="texte_2" value="" />
+    </form>
+
+    <script>
+        function transfer()
+        {
+                var x = document.getElementById("texte_1").value;
+
+                if (x === "")
+                {
+                    alert ("le champ texte de gauche ne peut pas être vide !");
+                }
+                else
+                {
+                    document.getElementById("texte_2").value = x;
+
+                    document.getElementById("texte_1").value = "";
+                }
+        }
+    </script>
+</body>
+</html>
