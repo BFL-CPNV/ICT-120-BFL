@@ -21,7 +21,7 @@
 			"writer": "M. Kevin Clark"
 		},
 		{
-			"name": "Laser Game Evolution Lausanne",
+			"name": "Laser Game Evolution",
 			"location": "Rue de Genève 88, 1004 Lausanne",
 			"appointment": "13:25",
 			"description": "Sortie optionnelle offerte par le CPNV, 2 parties uniquement.\nLes élèves sont priés de nous informer de leur présence à la sortie avant le départ pour le voyage.",
@@ -39,6 +39,16 @@
 			"date": "35.02.2020",
 			"links": "Leur site internet : nonstopgym.com\nLeur numéro de téléphone : 021 625 23 49",
 			"writer": "Mme. Jessica Hovers"
+		},
+		{
+			"name": "Sortie Pizza",
+			"location": "Box59, Chemin de Budron H7, 1052 Le Mont-sur-Lausanne",
+			"appointment": "11:15",
+			"description": "Repas en commun, trajet commun rdv devant l'hotel.",
+			"type": "repas",
+			"date": "31.02.2020",
+			"links": "Leur site internet : vaivai.ch",
+			"writer": "M. Kevin Clark"
 		}
 	]
 }
